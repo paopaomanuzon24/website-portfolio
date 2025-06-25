@@ -20,17 +20,13 @@ This is my personal portfolio website — designed and built to showcase my work
 - Experience Section
 - Contact Section (functionality under development)
 
-## 📸 Preview
-
-![Portfolio Screenshot](images/projects/personal-portfolio/hero.png)
-
 ## 📫 Contact
 
 If you’d like to get in touch:
 
-- 📧 Email: [your.email@example.com](paulangelo.manuzon@gmail.com)
-- 🔗 LinkedIn: [linkedin.com/in/yourprofile](https://www.linkedin.com/in/paul-angelo-manuzon/)
-- 🧑‍💻 GitHub: [github.com/yourusername](https://github.com/paopaomanuzon24)
+- 📧 Email: [paulangelo.manuzon@gmail.com]
+- 🔗 LinkedIn: [https://www.linkedin.com/in/paul-angelo-manuzon/]
+- 🧑‍💻 GitHub: [https://github.com/paopaomanuzon24]
 
 ---
 
