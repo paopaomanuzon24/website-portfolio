@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import Experience from './components/Experience';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <main className="px-4 md:px-12 lg:px-24 py-12 space-y-24">
         <Home />
         <About />
+        <Experience />
         <Projects />
         <Contact />
       </main>

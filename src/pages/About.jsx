@@ -2,7 +2,7 @@ import React from "react";
 
 const skills = {
   "Backend": ["PHP", "Laravel", "CodeIgniter", "MySQL", "RESTful APIs", "Java (basic)"],
-  "Frontend": ["HTML", "CSS", "JavaScript (ES6+)", "jQuery", "Bootstrap"],
+  "Frontend": ["HTML", "CSS", "JavaScript (ES6+)", "jQuery", "Bootstrap", "React", "Tailwind CSS"],
   "DevOps / Deployment": ["Git", "GitHub", "GitLab CI", "CI/CD basics", "Composer", "Linux (CentOS)"],
   "Tools": ["Postman", "Visual Studio Code", "WinSCP"],
   "Project Management": ["JIRA", "Agile/Scrum", "Code Reviews"]
@@ -10,17 +10,14 @@ const skills = {
 
 const About = () => {
   return (
-    <section id="about" className="py-20 bg-gradient-to-b from-white to-gray-100">
+    <section id="about" className="py-20 bg-white">
       <div className="max-w-5xl mx-auto px-6 text-center">
         <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6">
           👨‍💻 About Me
         </h2>
 
-        <p className="text-lg md:text-xl text-gray-600 mb-12 leading-relaxed">
-          I'm a dedicated web developer with over 7 years of experience in building clean,
-          scalable, and efficient web applications. I specialize in PHP and Laravel, with a
-          strong focus on backend logic and system design. I love turning business ideas into
-          functional, user-friendly software.
+        <p className="text-lg md:text-xl text-gray-600 mb-12 leading-relaxed text-left">
+          Experienced PHP/Laravel developer with 7 years of hands-on experience specializing in backend development using Laravel, PHP, and MySQL. Skilled in designing scalable web applications, optimizing database performance, and implementing RESTful APIs. Strong frontend capabilities with JavaScript, jQuery, and Bootstrap. Proven ability to lead development teams, mentor junior programmers, and deliver efficient, secure backend solutions. Strong collaborative skills and experience working in Agile teams and remote environments.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 text-left">

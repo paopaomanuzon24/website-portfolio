@@ -8,34 +8,34 @@ const projects = [
     description: "A responsive personal portfolio showcasing my projects, built with React and Tailwind CSS.",
     thumbnail: "/images/portfolio.png", // Replace with real image URL
     images: ["/images/projects/personal-portfolio/hero.png", "/images/projects/personal-portfolio/about-me.png", "/images/projects/personal-portfolio/projects.png", "/images/projects/personal-portfolio/contact-me.png"], // Replace with real image URL
-    stacks: ["React", "Tailwind CSS", "JavaScript"],
+    stacks: ["React", "Tailwind CSS", "JavaScript", "GitHub"],
   },
   {
-    name: "Academic Info System (Laravel)",
+    name: "Academic Information Management System (AimsV2)",
     description: "Laravel-based academic system for managing students, enrollment, and grades. (Screenshots only - employer project)",
     //thumbnail: "https://via.placeholder.com/300x200", // Replace with screenshot if available
-    images: ["/images/projects/aims-laravel/hero.png", "/images/projects/aims-laravel/about-me.png", "/images/projects/aims-laravel/projects.png", "/images/projects/aims-laravel/contact-me.png"],
-    stacks: ["Laravel", "PHP", "MySQL", "JavaScript", "jQuery","Bootstrap", "Git"],
+    images: ["/images/projects/aims-laravel/dashboard-two.png", "/images/projects/aims-laravel/gradingsheet.png", "/images/projects/aims-laravel/grading-sheet-inside.png", "/images/projects/aims-laravel/application-data.png", "/images/projects/aims-laravel/dashboard-one.png"],
+    stacks: ["Laravel", "PHP", "MySQL", "JavaScript", "jQuery","Bootstrap", "GitLab"],
   },
   {
-    name: "Academic Info System (PHP)",
+    name: "Academic Information Management System (AimsV1)",
     description: "Original PHP version of academic management system with core features. (Screenshots only - employer project)",
     //thumbnail: "https://via.placeholder.com/300x200", // Replace with screenshot if available
-    images: ["/images/projects/aims-php/hero.png", "/images/projects/aims-php/about-me.png", "/images/projects/aims-php/projects.png", "/images/projects/aims-php/contact-me.png"],
-    stacks: ["PHP", "MySQL", "JavaScript", "HTML", "CSS"],
+    images: ["/images/projects/aims-php/applicant-list.png", "/images/projects/aims-php/course-file.png"],
+    stacks: ["PHP", "MySQL", "JavaScript", "jQuery", "HTML", "CSS"],
   },
   {
     name: "Barangay Management System (Backend)",
     description: "Backend system with database logic for managing residents and barangay certifications.",
     thumbnail: "/images/barangay-thumbnail.png",// Optional: replace with a backend architecture image or placeholder
-    stacks: ["PHP", "Laravel", "MySQL", "GIT", "RESTful APIs"],
+    stacks: ["PHP", "Laravel", "MySQL", "GitHub", "RESTful APIs"],
     github: "https://github.com/paopaomanuzon24/barangay"
   },
   {
     name: "CLI Calculator with Unit Testing",
     description: "A command-line calculator with PHPUnit tests built during a technical assessment.",
   //thumbnail: "https://via.placeholder.com/300x200", // Optional: Use a terminal-themed placeholder or GitHub logo
-    stacks: ["PHP", "PHPUnit"],
+    stacks: ["PHP", "PHPUnit", "GitHub"],
     github: "https://github.com/paopaomanuzon24/cli-calculator"
   },
 
@@ -43,7 +43,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-16 bg-white">
+    <section id="projects" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-6 text-center">
         <h2 className="text-3xl md:text-4xl font-semibold mb-6">🚀 Projects</h2>
 
@@ -52,7 +52,7 @@ const Projects = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-white shadow-lg rounded-lg overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-xl"
+              className="bg-white shadow-lg rounded-lg overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-xl border border-gray-300"
             >
               
 
@@ -71,8 +71,8 @@ const Projects = () => {
                   ))}
                 </Carousel>
               ) : (
-                <div className="w-full h-48 bg-gray-100 flex items-center justify-center text-gray-500 text-2xl">
-                  Backend Only
+                <div className="w-full h-48 bg-gray-100 flex items-center justify-center text-gray-500 text-4xl">
+                  No Thumbnail
                 </div>
               )
             }

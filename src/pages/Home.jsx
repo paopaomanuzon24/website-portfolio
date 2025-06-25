@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="h-screen bg-gradient-to-br from-gray-100 to-white flex items-center justify-center"
+      className="h-[90vh] py-20 bg-white flex items-center justify-center"
     >
       <div className="max-w-4xl mx-auto px-6 text-center">
         <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4">
@@ -12,9 +12,9 @@ const Home = () => {
         </h1>
 
         <p className="text-lg md:text-xl text-gray-600 mb-6 leading-relaxed">
-          A passionate web developer with 7+ years of experience building modern,
-          scalable applications using PHP, Laravel, JavaScript, and React.
-        </p>
+  With 7 years of experience in PHP and Laravel, I specialize in building robust backend systems, designing APIs, and optimizing databases. I also bring solid frontend skills and thrive in collaborative Agile teams.
+</p>
+
 
         <a
           href="#projects"

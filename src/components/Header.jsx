@@ -25,6 +25,14 @@ const Header = () => {
           </li>
           <li>
             <a
+              href="#experience"
+              className="text-gray-700 hover:text-blue-600 transition-colors duration-200"
+            >
+              Experience
+            </a>
+          </li>
+          <li>
+            <a
               href="#projects"
               className="text-gray-700 hover:text-blue-600 transition-colors duration-200"
             >
@@ -39,6 +47,8 @@ const Header = () => {
               Contact
             </a>
           </li>
+
+          
         </ul> 
       </nav>
     </header>

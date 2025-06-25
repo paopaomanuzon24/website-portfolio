@@ -14,7 +14,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-20 bg-gradient-to-b from-white to-gray-50">
+    <section id="contact" className="py-20 bg-white rounded-md">
       <div className="max-w-3xl mx-auto px-6 text-center">
         <h2 className="text-4xl font-extrabold text-gray-900 mb-4">📩 Contact Me</h2>
         <p className="text-lg md:text-xl text-gray-600 mb-10">
@@ -23,7 +23,7 @@ const Contact = () => {
 
         <form
           onSubmit={handleSubmit}
-          className="space-y-6 text-left bg-white p-8 rounded-2xl shadow-xl"
+          className="space-y-6 text-left bg-white p-8 rounded-2xl shadow-xl border border-gray-400"
         >
           <div>
             <label className="block text-gray-700 font-medium mb-2">Your Name</label>
