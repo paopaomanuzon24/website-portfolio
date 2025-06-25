@@ -20,7 +20,7 @@ const Home = () => {
           href="#projects"
           className="inline-block bg-gray-800 text-white py-3 px-6 rounded-full text-base font-semibold hover:bg-gray-700 transition duration-200 transform hover:scale-105"
         >
-          🚀 View My Projects
+          🚀 View My Projectsss
         </a>
 
         {/* Optional Profile Image */}
