@@ -22,9 +22,7 @@ This is my personal portfolio website — designed and built to showcase my work
 
 ## 📸 Preview
 
-![Portfolio Screenshot](/images/projects/personal-portfolio/hero.png)
-
-> _Replace with an actual image or remove this section if you don't want to share screenshots._
+![Portfolio Screenshot](images/projects/personal-portfolio/hero.png)
 
 ## 📫 Contact
 
