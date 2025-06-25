@@ -7,8 +7,9 @@ const projects = [
     name: "Personal Portfolio Website",
     description: "A responsive personal portfolio showcasing my projects, built with React and Tailwind CSS.",
     thumbnail: "/images/portfolio.png", // Replace with real image URL
-    images: ["/images/projects/personal-portfolio/hero.png", "/images/projects/personal-portfolio/about-me.png", "/images/projects/personal-portfolio/projects.png", "/images/projects/personal-portfolio/contact-me.png"], // Replace with real image URL
+    images: ["/images/projects/personal-portfolio/hero.png", "/images/projects/personal-portfolio/about-me.png", "/images/projects/personal-portfolio/projects.png"/* , "/images/projects/personal-portfolio/contact-me.png" */], // Replace with real image URL
     stacks: ["React", "Tailwind CSS", "JavaScript", "GitHub"],
+    github: "https://github.com/paopaomanuzon24/website-portfolio"
   },
   {
     name: "Academic Information Management System (AimsV2)",
@@ -26,7 +27,7 @@ const projects = [
   },
   {
     name: "Barangay Management System (Backend)",
-    description: "Backend system with database logic for managing residents and barangay certifications.",
+    description: "Backend system with database logic for managing residents and barangay permits.",
     thumbnail: "/images/barangay-thumbnail.png",// Optional: replace with a backend architecture image or placeholder
     stacks: ["PHP", "Laravel", "MySQL", "GitHub", "RESTful APIs"],
     github: "https://github.com/paopaomanuzon24/barangay"
